@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO DO</title>
+	<link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='all'>
+	<link rel = "stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/scripts.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<h1>TO DO</h1>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Lists</h2>
+				<p class="no-lists-yet">You have no lists yet</p>
+				<ul id="lists">
+
+				</ul>
+			</div>
+			<div id="show-list" class="col-md-6">
+				<h2><span class="list-name"></span></h2>
+				<ul id="tasks">
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Create a list</h2>
+				<form id="new-list">
+					<div class="form-group">
+						<label for="for-new-list">name</label>
+						<input type="text" class="form-control" id="for-new-list">
+					</div>
+					<button type="submit" class="btn btn-primary">Create</button>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<h2>Add a task</h2>
+				<form id="new-task">
+					<div class="form-group">
+						<label for="for-new-task">description</label>
+						<input type="text" class="form-control" id="for-new-task" placeholder="wash a bike">
+					</div>
+					<button type="submit" class="btn btn-primary">Add</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

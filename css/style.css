@@ -1,0 +1,13 @@
+#show-contact {
+	display: none;
+}
+
+.listName {
+	cursor: pointer;
+	color: #0088cc;
+}
+
+.listName:hover {
+	text-decoration: underline;
+}
+
